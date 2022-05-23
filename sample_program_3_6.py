@@ -13,7 +13,7 @@ import sample_functions
 k_in_k3n_error = 10
 candidates_of_perplexity = np.arange(5, 105, 5, dtype=int)
 
-dataset = pd.read_csv('iris_without_species.csv', index_col=0)
+dataset = pd.read_csv('sample_data/iris_without_species.csv', index_col=0)
 autoscaled_dataset = (dataset - dataset.mean()) / dataset.std()  # オートスケーリング
 
 # k3n-error を用いた perplexity の最適化 
