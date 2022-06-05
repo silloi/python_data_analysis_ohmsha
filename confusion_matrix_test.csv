@@ -1,4 +1,3 @@
-,virginica,versicolor,setosa
-virginica,16,1,0
-versicolor,1,16,0
-setosa,0,0,16
+,positive,negative
+positive,329,68
+negative,86,317
